@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html{
+    min-height: 100%
+}
+
+body {
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    color: #163D57
+}
+
+svg{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    padding: 10px;
+}
+
+#graph{
+    min-height: 600px;
+    min-width: 1200px;
+    border-radius: 14px 14px 14px 14px;
+    -webkit-border-radius: 14px 14px 14px 14px;
+    -moz-border-radius: 14px 14px 14px 14px;    
+
+    
+}
+
+
+.cell:hover{
+    fill: black
+}
+
+g{
+    color: #E0E3F0
+}
+
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 2px;
+    color: #163D57;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#legend{
+    color: rgb(56, 58, 74);
+    font-size: 18px;
+    text-align: center;
+    min-height: 150px;
+    border-radius: 14px 14px 14px 14px;
+-webkit-border-radius: 14px 14px 14px 14px;
+-moz-border-radius: 14px 14px 14px 14px;
+}
+
+
+#title{
+    font-size: 28px;
+    color: #163D57;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
