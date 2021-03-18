@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #164A41;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+#treemap{
+    min-width: 1000px;
+    min-height: 600px;   
+    border-radius: 0.4em;
+}
+
+
+#tooltip{
+    visibility: hidden;
+    width: auto;
+    height: auto;
+}
+#legend{
+    background-color: rgb(66, 197, 158);
+    color: white;
+    padding: 10px;
+}
